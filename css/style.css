@@ -1,0 +1,83 @@
+body {
+  background: gray;
+  font: 16px/1 'Montserrat', sans-serif;
+}
+.wrapper {
+  background: white;
+  margin: auto;
+  padding: 1em;
+  width: 50%;
+}
+h1 {
+  text-align: center;
+}
+ul.tabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.tabs li {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+ul.tabs li a {
+  color: #ddd;
+  font-weight: 600;
+  text-decoration: none;
+}
+ul.tabs li.active {
+  background: white;
+  border-bottom: 1px solid #fff;
+  border-top: 2px solid #00ccff;
+}
+ul.tabs li.active a {
+  color: #555;
+}
+.clr {
+  clear: both;
+}
+article {
+  border-top: #eeeeee solid 1px;
+  padding: 1em 0;
+}
+
+ul.programas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.prog:nth-child(odd) {
+    background-color: #f2f2f2;
+    padding: 3px;
+}
+
+li.prog:nth-child(even) {
+    background-color: #fff;
+    padding: 3px;
+}
+
+.tabs a:hover {
+  color: #555;
+  cursor: pointer;
+}
+
+.programa {
+  color: #00ccff;
+  font-weight: bold;
+}
+
+.detalle{
+  font-weight: 300;
+}
+
+.raya {
+  font-weight: 300;
+  padding-left: 2px;
+  padding-right: 4px;
+}
